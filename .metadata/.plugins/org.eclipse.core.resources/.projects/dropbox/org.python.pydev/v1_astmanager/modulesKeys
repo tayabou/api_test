@@ -1,0 +1,6 @@
+MODULES_MANAGER_V2
+test.__init__|/Users/yatatomo/Workspace/python/dropbox/test/__init__.py
+test.authenticate|/Users/yatatomo/Workspace/python/dropbox/test/authenticate.py
+test.dropbox_sdk_test|/Users/yatatomo/Workspace/python/dropbox/test/dropbox_sdk_test.py
+test.get_access_info|/Users/yatatomo/Workspace/python/dropbox/test/get_access_info.py
+test.gettoken|/Users/yatatomo/Workspace/python/dropbox/test/gettoken.py

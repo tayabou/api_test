@@ -1,0 +1,23 @@
+'''
+Created on 2015/01/02
+
+@author: yatatomo
+'''
+
+import requests
+import pprint
+
+from apiclient.discovery import build
+from apiclient.http import MediaFileUpload
+from oauth2client.client import OAuth2WebServerFlow
+
+if __name__ == '__main__':
+    CLIENT_ID = '184978633898-va6vojtpiuhbo0610d9j0m5hb8eevm2s.apps.googleusercontent.com'
+    CLIENT_SECRET = 'NESNMBZEW16AiVyo74xoH56S'
+    
+    OAUTH_SCOPE = 'https://www.googleapis.com/auth/drive'
+    
+    REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob'
+    
+    FILENAME = ''
+

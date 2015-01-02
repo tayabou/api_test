@@ -1,0 +1,19 @@
+'''
+Created on 2014/12/28
+
+@author: yatatomo
+'''
+
+import json
+import requests
+import from requests_oauthlib import OAuth1Session
+
+if __name__ == '__main__':
+    consumer_key = 'shJ3e537FPtlrHXVtlFOUZ30v'
+    consumer_secret = 'nKK53BqWb484lr9GQMDC1rDdfc4koSCm53yhX1iO6De78Lx4Fb'
+    access_token = '134000246-SIxetzdAeaH7LKq3kP5UqjcNSTEclUzAckjjbVGc'
+    access_token_secret = 'gaQC7E3hboANaunpCKkNob7jFRtYNtTL4HdmKbf8datzj'
+    
+    params = {}
+    
+    twitter = OAuth1Session(consumer_key, consumer_secret, access_token, access_token_secret)

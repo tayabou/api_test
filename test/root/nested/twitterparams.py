@@ -1,0 +1,33 @@
+'''
+Created on 2014/12/31
+
+@author: yatatomo
+'''
+
+class TwitterParam():
+    '''
+    classdocs
+    '''
+    
+    CONSUMER_KEY = 'shJ3e537FPtlrHXVtlFOUZ30v'
+    CONSUMER_SECRET = 'nKK53BqWb484lr9GQMDC1rDdfc4koSCm53yhX1iO6De78Lx4Fb'
+    ACCESS_TOKEN = '134000246-SIxetzdAeaH7LKq3kP5UqjcNSTEclUzAckjjbVGc'
+    ACCESS_TOKEN_SECRET = 'gaQC7E3hboANaunpCKkNob7jFRtYNtTL4HdmKbf8datzj'
+    
+    #GET Request URLS
+    URL_GET_ACCOUNT_SETTINGS = 'https://api.twitter.com/1.1/account/settings.json'
+    URL_GET_HOME_TIMELINE = 'https://api.twitter.com/1.1/statuses/home_timeline.json'
+    URL_GET_USER_TIMELINE = 'https://api.twitter.com/1.1/statuses/user_timeline.json'
+    URL_GET_USER_SHOW = 'https://api.twitter.com/1.1/users/show.json'
+
+    def get_consumer_key(self):
+        return self.CONSUMER_KEY
+    
+    def get_consumer_secret(self):
+        return self.CONSUMER_SECRET
+    
+    def get_access_token(self):
+        return self.ACCESS_TOKEN
+    
+    def get_access_token_secret(self):
+        return self.ACCESS_TOKEN_SECRET

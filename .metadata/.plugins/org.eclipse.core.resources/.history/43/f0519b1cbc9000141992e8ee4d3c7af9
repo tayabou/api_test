@@ -1,0 +1,21 @@
+'''
+Created on 2014/12/31
+
+@author: yatatomo
+'''
+
+class TwitterParams(object):
+    '''
+    classdocs
+    '''
+    CONSUMER_KEY = 'shJ3e537FPtlrHXVtlFOUZ30v'
+    CONSUMER_SECRET = 'nKK53BqWb484lr9GQMDC1rDdfc4koSCm53yhX1iO6De78Lx4Fb'
+    ACCESS_TOKEN = '134000246-SIxetzdAeaH7LKq3kP5UqjcNSTEclUzAckjjbVGc'
+    ACCESS_TOKEN_SECRET = 'gaQC7E3hboANaunpCKkNob7jFRtYNtTL4HdmKbf8datzj'
+
+
+    def __init__(self, params):
+        '''
+        Constructor
+        '''
+        

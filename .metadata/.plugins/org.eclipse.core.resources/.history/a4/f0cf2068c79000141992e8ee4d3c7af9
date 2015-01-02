@@ -1,0 +1,40 @@
+'''
+Created on 2014/12/28
+
+@author: yatatomo
+'''
+
+import json
+import requests
+from requests_oauthlib import OAuth1Session
+from root.nested.twitterparams import TwitterParam
+
+if __name__ == '__main__':
+    url = "https://api.twitter.com/1.1/statuses/home_timeline.json"
+    
+    params = {}
+    
+    twParams = TwitterParam()
+    print(twParams.get_consumer_key())
+    print(twParams.get_consumer_secret())
+    print(twParams.get_access_token())
+    print(twParams.get_access_token_secret())
+
+    #twitter = OAuth1Session(twParams.get_consumer_key(),
+    #                         twParams.get_consumer_secret(),
+    #                          twParams.get_access_token(),
+    #                           twParams.get_consumer_secret())
+    twitter = OAuth1Session('shJ3e537FPtlrHXVtlFOUZ30v',
+                             'nKK53BqWb484lr9GQMDC1rDdfc4koSCm53yhX1iO6De78Lx4Fb',
+                              '134000246-SIxetzdAeaH7LKq3kP5UqjcNSTEclUzAckjjbVGc',
+                               'gaQC7E3hboANaunpCKkNob7jFRtYNtTL4HdmKbf8datzj')
+
+    res = twitter.get(url, params=params)
+    
+    if res.status_code == 200:
+        timeline = json.loads(res.text)
+        for tweet in timeline:
+            print(tweet["text"])
+    else:
+        print("Error: %d" % res.status_code)
+

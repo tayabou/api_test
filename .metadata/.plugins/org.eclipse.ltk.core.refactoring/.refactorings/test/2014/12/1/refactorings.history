@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;test/root/nested/twitter-params.py&apos; to &apos;twitterparams.py&apos;" description="Rename resource &apos;twitter-params.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="root/nested/twitter-params.py" name="twitterparams.py" stamp="1420011652233" updateReferences="true"/>
+</session>

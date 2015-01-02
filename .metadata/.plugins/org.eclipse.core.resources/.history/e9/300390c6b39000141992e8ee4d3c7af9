@@ -1,0 +1,14 @@
+'''
+Created on 2014/12/28
+
+@author: yatatomo
+'''
+
+import json
+import requests
+
+if __name__ == '__main__':
+    r = requests.get('https://api.twitter.com/1.1/search/tweets.json')
+    print(r.status_code)
+    print(r.encoding)
+    print(r.text)

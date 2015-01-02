@@ -1,0 +1,31 @@
+'''
+Created on 2014/12/28
+
+@author: yatatomo
+'''
+
+import json
+import requests
+from requests_oauthlib import OAuth1Session
+
+if __name__ == '__main__':
+    CONSUMER_KEY = 'shJ3e537FPtlrHXVtlFOUZ30v'
+    CONSUMER_SECRET = 'nKK53BqWb484lr9GQMDC1rDdfc4koSCm53yhX1iO6De78Lx4Fb'
+    access_token = '134000246-SIxetzdAeaH7LKq3kP5UqjcNSTEclUzAckjjbVGc'
+    access_token_secret = 'gaQC7E3hboANaunpCKkNob7jFRtYNtTL4HdmKbf8datzj'
+    
+    url = "https://api.twitter.com/1.1/statuses/home_timeline.json"
+    
+    params = {}
+    
+    twitter = OAuth1Session(CONSUMER_KEY, CONSUMER_SECRET, access_token, access_token_secret)
+    req = twitter.get(url, params=params)
+    
+    if req.status_code == 200:
+        timeline = json.loads(req.text)
+        for tweet in timeline:
+            print(tweet["text"])
+            
+    else:
+        print("Error: %d" % req.status_code)
+

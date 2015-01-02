@@ -1,0 +1,17 @@
+'''
+Created on 2014/12/31
+
+@author: yatatomo
+'''
+
+class ModuleSample(object):
+    '''
+    classdocs
+    '''
+
+
+    def __init__(self, params):
+        '''
+        Constructor
+        '''
+        

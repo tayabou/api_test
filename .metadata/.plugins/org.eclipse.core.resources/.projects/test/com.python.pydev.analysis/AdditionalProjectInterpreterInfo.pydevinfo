@@ -1,0 +1,37 @@
+-- VERSION_4
+-- START DISKCACHE
+/Users/yatatomo/Workspace/python/.metadata/.plugins/org.eclipse.core.resources/.projects/test/com.python.pydev.analysis/v2_indexcache
+root.nested.__init__|1419775884000|/Users/yatatomo/Workspace/python/test/root/nested/__init__.py
+root.nested.twitter_update_example|1420020098000|/Users/yatatomo/Workspace/python/test/root/nested/twitter_update_example.py
+root.nested.twitterapitest|1420018736000|/Users/yatatomo/Workspace/python/test/root/nested/twitterapitest.py
+root.nested.twitterparams|1420019854000|/Users/yatatomo/Workspace/python/test/root/nested/twitterparams.py
+root.__init__|1419775884000|/Users/yatatomo/Workspace/python/test/root/__init__.py
+root.nested.get_example|1420027303000|/Users/yatatomo/Workspace/python/test/root/nested/get_example.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+3=root.nested.twitter_update_example
+5=TwitterParam
+1=root.nested.twitterapitest
+4=root.nested.twitterparams
+2=root.nested.get_example
+-- END DICTIONARY
+-- START TREE 1
+9
+acc|2|ACCESS_TOKEN_SECRET!11@ACCESS_TOKEN!11@
+con|2|CONSUMER_KEY!11@CONSUMER_SECRET!11@
+par|3|params!19@params!11@params!27@
+res|3|res!27@res!11@res!19@
+ses|1|session!11@
+tim|2|timeline!19@timeline!11@
+twi|3|twitter!27@TwitterParam!33@twitter!19@
+twp|2|twParams!27@twParams!19@
+url|3|url!27@url!11@url!19@
+-- END TREE
+-- START TREE 2
+4
+acc|2|ACCESS_TOKEN_SECRET!5&35@ACCESS_TOKEN!5&35@
+con|2|CONSUMER_KEY!5&35@CONSUMER_SECRET!5&35@
+get|4|get_access_token!5&34@get_access_token_secret!5&34@get_consumer_secret!5&34@get_consumer_key!5&34@
+url|4|URL_GET_USER_TIMELINE!5&35@URL_GET_USER_SHOW!5&35@URL_GET_ACCOUNT_SETTINGS!5&35@URL_GET_HOME_TIMELINE!5&35@
+-- END TREE

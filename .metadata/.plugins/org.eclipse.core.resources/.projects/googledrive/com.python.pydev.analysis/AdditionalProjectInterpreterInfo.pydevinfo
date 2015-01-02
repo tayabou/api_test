@@ -1,0 +1,28 @@
+-- VERSION_4
+-- START DISKCACHE
+/Users/yatatomo/Workspace/python/.metadata/.plugins/org.eclipse.core.resources/.projects/googledrive/com.python.pydev.analysis/v2_indexcache
+test.__init__|1420169038000|/Users/yatatomo/Workspace/python/googledrive/test/__init__.py
+test.googledrivetest|1420170856000|/Users/yatatomo/Workspace/python/googledrive/test/googledrivetest.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=test.googledrivetest
+-- END DICTIONARY
+-- START TREE 1
+12
+aut|1|authorize_url!11@
+bod|1|body!11@
+cli|2|CLIENT_SECRET!11@CLIENT_ID!11@
+cod|1|code!11@
+cre|1|credentials!11@
+dri|1|drive_service!11@
+fil|2|file!11@FILENAME!11@
+flo|1|flow!11@
+htt|1|http!11@
+med|1|media_body!11@
+oau|1|OAUTH_SCOPE!11@
+red|1|REDIRECT_URI!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

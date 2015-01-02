@@ -1,0 +1,35 @@
+-- VERSION_4
+-- START DISKCACHE
+/Users/yatatomo/Workspace/python/.metadata/.plugins/org.eclipse.core.resources/.projects/dropbox/com.python.pydev.analysis/v2_indexcache
+test.get_access_info|1420115254000|/Users/yatatomo/Workspace/python/dropbox/test/get_access_info.py
+test.__init__|1420103023000|/Users/yatatomo/Workspace/python/dropbox/test/__init__.py
+test.dropbox_sdk_test|1420158427000|/Users/yatatomo/Workspace/python/dropbox/test/dropbox_sdk_test.py
+test.gettoken|1420115254000|/Users/yatatomo/Workspace/python/dropbox/test/gettoken.py
+test.authenticate|1420156516000|/Users/yatatomo/Workspace/python/dropbox/test/authenticate.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+2=test.get_access_info
+4=test.dropbox_sdk_test
+3=test.gettoken
+1=test.authenticate
+-- END DICTIONARY
+-- START TREE 1
+13
+acc|7|access_token_url!11@ACCESS_TOKEN_SECRET!19@access_token!11@access_info_res!11@ACCESS_TOKEN!19@access_token_res!11@access_info_url!11@
+and|1|and_splited_list!11@
+aut|8|auth_token_map!11@authorize_res!19@authorize_res!27@authorize_url!27@authorize_url!35@authorize_res!11@authorize_url!11@authorize_url!19@
+cod|1|code!35@
+con|8|CONSUMER_SECRET!19@CONSUMER_KEY!19@CONSUMER_SECRET!35@CONSUMER_KEY!27@CONSUMER_KEY!35@CONSUMER_SECRET!27@CONSUMER_KEY!11@CONSUMER_SECRET!11@
+equ|1|equal_splited_str!11@
+f|1|f!11@
+flo|1|flow!35@
+key|1|key!11@
+par|3|params!11@params!27@params!19@
+req|1|request_token_res!11@
+ses|3|session!27@session!19@session!11@
+val|1|value!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

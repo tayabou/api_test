@@ -1,0 +1,17 @@
+'''
+Created on 2014/12/31
+
+@author: yatatomo
+'''
+
+class MyClass(object):
+    '''
+    classdocs
+    '''
+
+
+    def __init__(self, params):
+        '''
+        Constructor
+        '''
+        

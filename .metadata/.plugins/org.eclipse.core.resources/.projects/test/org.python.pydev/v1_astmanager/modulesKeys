@@ -1,0 +1,7 @@
+MODULES_MANAGER_V2
+root.__init__|/Users/yatatomo/Workspace/python/test/root/__init__.py
+root.nested.__init__|/Users/yatatomo/Workspace/python/test/root/nested/__init__.py
+root.nested.get_example|/Users/yatatomo/Workspace/python/test/root/nested/get_example.py
+root.nested.twitter_update_example|/Users/yatatomo/Workspace/python/test/root/nested/twitter_update_example.py
+root.nested.twitterapitest|/Users/yatatomo/Workspace/python/test/root/nested/twitterapitest.py
+root.nested.twitterparams|/Users/yatatomo/Workspace/python/test/root/nested/twitterparams.py
