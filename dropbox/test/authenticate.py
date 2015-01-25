@@ -33,7 +33,7 @@ if __name__ == '__main__':
         print("Error: %d" % request_token_res.status_code)
     
     #認証用のURLを生成
-    authorize_url = 'https://www.dropbox.com/1/oauth/authorize'
+    authorize_url = 'https://www.dropbox.com/1/oauth/authorize' 
 
     params = {"oauth_token" : auth_token_map["oauth_token"]}
     session = OAuth1Session(CONSUMER_KEY, CONSUMER_SECRET)

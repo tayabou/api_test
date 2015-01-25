@@ -1,7 +1,7 @@
 '''
 Created on 2015/01/04
 
-@author: yatatomo
+@author: yatatoma
 '''
 import json
 from requests_oauthlib import OAuth1Session
